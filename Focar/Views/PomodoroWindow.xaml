@@ -1,0 +1,192 @@
+﻿<Window x:Class="Focar.Views.PomodoroWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Focar.Views"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Focar :: Pomodoro"
+		Icon="/Resources/Images/logo.ico"
+        Width="420"
+        Height="410"
+        MinWidth="420"
+        MinHeight="500"
+		Topmost="True"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+		xmlns:vm="clr-namespace:Focar.ViewModels"
+        WindowStartupLocation="CenterScreen">
+
+	<Window.Resources>
+		<BooleanToVisibilityConverter x:Key="BoolToVis"/>
+	</Window.Resources>
+
+	<Window.DataContext>
+		<vm:PomodoroViewModel />
+	</Window.DataContext>
+
+	<Grid Margin="24">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<!-- Header -->
+			<RowDefinition Height="*"/>
+			<!-- Timer -->
+			<RowDefinition Height="Auto"/>
+			<!-- Controles -->
+			<RowDefinition Height="Auto"/>
+			<!-- Rodapé/stats -->
+		</Grid.RowDefinitions>
+
+		<!-- ===================== HEADER ===================== -->
+		<Grid Grid.Row="0" Margin="0,0,0,16">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+
+			<StackPanel Grid.Column="0">
+				<TextBlock Text="Pomodoro"
+                           Style="{StaticResource MaterialDesignHeadline5TextBlock}"/>
+				<TextBlock Text="Focar"
+                           Style="{StaticResource MaterialDesignBody2TextBlock}"
+                           Opacity="0.6"/>
+			</StackPanel>
+
+			<Button Grid.Column="1"
+                    Style="{StaticResource MaterialDesignIconButton}"
+                    ToolTip="Configurações"
+                    Command="{Binding AbrirRelatorioPomodoroCommand}"
+                    VerticalAlignment="Top">
+				<materialDesign:PackIcon Kind="FileReport"/>
+			</Button>
+		</Grid>
+
+		<!-- ===================== TIMER ===================== -->
+		<materialDesign:Card Grid.Row="1"
+                              Padding="24"
+                              UniformCornerRadius="20"
+                              VerticalAlignment="Stretch"
+                              Margin="0,0,0,16">
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+
+				<!-- Chip de sessão (Foco / Pausa Curta / Pausa Longa) -->
+				<Border Grid.Row="0"
+                        Background="{DynamicResource MaterialDesignSelection}"
+                        CornerRadius="16"
+                        Padding="16,6"
+                        HorizontalAlignment="Center"
+                        Margin="0,0,0,8">
+					<TextBlock Text="{Binding SessionLabel}"
+                               Style="{StaticResource MaterialDesignButtonTextBlock}"
+                               FontWeight="Medium"/>
+				</Border>
+
+				<!-- Contador central, escalável -->
+				<Viewbox Grid.Row="1"
+                         Stretch="Uniform"
+                         MaxHeight="180"
+                         Margin="0,8">
+					<TextBlock Text="{Binding TimeDisplay}"
+                               FontWeight="Bold"
+                               FontSize="72"
+                               Foreground="{DynamicResource PrimaryHueMidBrush}"/>
+				</Viewbox>
+
+				<!-- Progresso da sessão atual -->
+				<StackPanel Grid.Row="2" Margin="0,8,0,0">
+					<ProgressBar Value="{Binding Progress, Mode=OneWay}"
+                                 Minimum="0" Maximum="100"
+                                 Height="6"
+                                 Style="{StaticResource MaterialDesignLinearProgressBar}"/>
+					<TextBlock Text="{Binding CicloAtualTexto}"
+                               Style="{StaticResource MaterialDesignCaptionTextBlock}"
+                               Opacity="0.6"
+                               HorizontalAlignment="Center"
+                               Margin="0,6,0,0"/>
+				</StackPanel>
+			</Grid>
+		</materialDesign:Card>
+
+		<!-- ===================== CONTROLES ===================== -->
+		<Grid Grid.Row="2" Margin="0,0,0,16">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<!-- Reiniciar -->
+			<Button Grid.Column="0"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Command="{Binding ResetCommand}"
+                    HorizontalAlignment="Center"
+                    Width="56" Height="56"
+                    materialDesign:ButtonAssist.CornerRadius="28">
+				<materialDesign:PackIcon Kind="Restart" Width="24" Height="24"/>
+			</Button>
+
+			<!-- Iniciar / Pausar (FAB) -->
+			<Button Grid.Column="1"
+                    Style="{StaticResource MaterialDesignFloatingActionButton}"
+                    Command="{Binding StartPauseCommand}"
+                    Width="72" Height="72"
+                    Margin="16,0">
+				<Grid>
+					<materialDesign:PackIcon Kind="Play"
+                                              Width="32" Height="32"
+                                              Visibility="{Binding IsStopped, Converter={StaticResource BoolToVis}, ConverterParameter=Inverse}"/>
+					<materialDesign:PackIcon Kind="Pause"
+                                              Width="32" Height="32"
+                                              Visibility="{Binding IsRunning, Converter={StaticResource BoolToVis}}"/>
+				</Grid>
+			</Button>
+
+			<!-- Pular sessão -->
+			<Button Grid.Column="2"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Command="{Binding SkipCommand}"
+                    HorizontalAlignment="Center"
+                    Width="56" Height="56"
+                    materialDesign:ButtonAssist.CornerRadius="28">
+				<materialDesign:PackIcon Kind="SkipNext" Width="24" Height="24"/>
+			</Button>
+		</Grid>
+
+		<!-- ===================== RODAPÉ / STATS ===================== -->
+		<Border Grid.Row="3"
+                Background="{DynamicResource MaterialDesignChipBackground}"
+                CornerRadius="12"
+                Padding="16,10">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="Auto"/>
+				</Grid.ColumnDefinitions>
+
+				<StackPanel Orientation="Horizontal" Grid.Column="0">
+					<materialDesign:PackIcon Kind="CheckCircleOutline"
+                                              VerticalAlignment="Center"
+                                              Margin="0,0,8,0"/>
+					<TextBlock VerticalAlignment="Center"
+                               Style="{StaticResource MaterialDesignBody2TextBlock}">
+                        <Run Text="Pomodoros concluídos: "/>
+                        <Run Text="{Binding PomodorosConcluidos, Mode=OneWay}" FontWeight="Bold"/>
+					</TextBlock>
+				</StackPanel>
+
+				<TextBlock Grid.Column="1"
+                           Text="{Binding CicloAtual}"
+                           Style="{StaticResource MaterialDesignBody2TextBlock}"
+                           Opacity="0.6"
+                           VerticalAlignment="Center"/>
+			</Grid>
+		</Border>
+	</Grid>
+</Window>
