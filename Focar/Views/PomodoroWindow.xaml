@@ -141,10 +141,10 @@
 				<Grid>
 					<materialDesign:PackIcon Kind="Play"
                                               Width="32" Height="32"
-                                              Visibility="{Binding IsStopped, Converter={StaticResource BoolToVis}, ConverterParameter=Inverse}"/>
+                                              Visibility="{Binding EstaParado, Converter={StaticResource BoolToVis}, ConverterParameter=Inverse}"/>
 					<materialDesign:PackIcon Kind="Pause"
                                               Width="32" Height="32"
-                                              Visibility="{Binding IsRunning, Converter={StaticResource BoolToVis}}"/>
+                                              Visibility="{Binding EstaRodando, Converter={StaticResource BoolToVis}}"/>
 				</Grid>
 			</Button>
 

@@ -62,3 +62,4 @@ C:\Users\victor.hugo\source\repos\Focar\Focar\bin\Debug\net8.0-windows\NAudio.Mi
 C:\Users\victor.hugo\source\repos\Focar\Focar\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
 C:\Users\victor.hugo\source\repos\Focar\Focar\bin\Debug\net8.0-windows\NAudio.WinForms.dll
 C:\Users\victor.hugo\source\repos\Focar\Focar\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+C:\Users\victor.hugo\source\repos\Focar\Focar\obj\Debug\net8.0-windows\Focar.sourcelink.json

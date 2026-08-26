@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Focar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cd37683dfbb553bc1fcb93758b65f5146b2bfbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Focar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Focar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

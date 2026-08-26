@@ -57,7 +57,7 @@ namespace Focar.ViewModels
 		private bool estaRodando;
 
 		[ObservableProperty]
-		private bool isStopped = true;
+		private bool estaParado = true;
 
 		[ObservableProperty]
 		private int pomodorosConcluidos;
@@ -117,7 +117,7 @@ namespace Focar.ViewModels
 		{
 			_timer.Stop();
 			EstaRodando = false;
-			IsStopped = !EstaRodando;
+			EstaParado = !EstaRodando;
 
 			if (_idSessaoAtual is not null)
 			{
@@ -133,7 +133,7 @@ namespace Focar.ViewModels
 		{
 			_timer.Stop();
 			EstaRodando = false;
-			IsStopped = !EstaRodando;
+			EstaParado = !EstaRodando;
 
 			if (_idSessaoAtual is not null)
 			{
@@ -173,7 +173,7 @@ namespace Focar.ViewModels
 			}
 
 			EstaRodando = true;
-			IsStopped = !EstaRodando;
+			EstaParado = !EstaRodando;
 			_timer.Start();
 		}
 
@@ -181,7 +181,7 @@ namespace Focar.ViewModels
 		{
 			_timer.Stop();
 			EstaRodando = false;
-			IsStopped = !EstaRodando;
+			EstaParado = !EstaRodando;
 		}
 
 		private async void Timer_Tick(object? sender, EventArgs e)
@@ -190,7 +190,7 @@ namespace Focar.ViewModels
 			{
 				_timer.Stop();
 				EstaRodando = false;
-				IsStopped = !EstaRodando;
+				EstaParado = !EstaRodando;
 
 				if (_idSessaoAtual is not null)
 				{

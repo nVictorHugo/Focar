@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\services\\audioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodororelatoriowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\helpers\\pomodoromensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\helpers\\pomodoromensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1181,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AudioService.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Services\\AudioService.cs",
               "RelativeDocumentMoniker": "Focar\\Services\\AudioService.cs",
@@ -97,12 +97,11 @@
               "RelativeToolTip": "Focar\\Services\\AudioService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAvwA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T12:13:42.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T12:13:42.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PomodoroRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Data\\PomodoroRepositorio.cs",
               "RelativeDocumentMoniker": "Focar\\Data\\PomodoroRepositorio.cs",
@@ -110,12 +109,11 @@
               "RelativeToolTip": "Focar\\Data\\PomodoroRepositorio.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAvwBEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:16:40.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:16:40.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PomodoroRegistroExibicao.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Models\\PomodoroRegistroExibicao.cs",
               "RelativeDocumentMoniker": "Focar\\Models\\PomodoroRegistroExibicao.cs",
@@ -123,12 +121,11 @@
               "RelativeToolTip": "Focar\\Models\\PomodoroRegistroExibicao.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:16:37.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:16:37.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PomodoroSessao.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Models\\PomodoroSessao.cs",
               "RelativeDocumentMoniker": "Focar\\Models\\PomodoroSessao.cs",
@@ -136,24 +133,22 @@
               "RelativeToolTip": "Focar\\Models\\PomodoroSessao.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:16:36.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:16:36.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "PomodoroWindow.xaml",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroWindow.xaml",
               "RelativeDocumentMoniker": "Focar\\Views\\PomodoroWindow.xaml",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroWindow.xaml",
               "RelativeToolTip": "Focar\\Views\\PomodoroWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T22:12:56.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:12:56.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PomodoroRelatorioViewModel.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
               "RelativeDocumentMoniker": "Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
@@ -161,20 +156,18 @@
               "RelativeToolTip": "Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAHoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:11:50.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:11:50.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PomodoroRelatorioWindow.xaml",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroRelatorioWindow.xaml",
               "RelativeDocumentMoniker": "Focar\\Views\\PomodoroRelatorioWindow.xaml",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroRelatorioWindow.xaml",
               "RelativeToolTip": "Focar\\Views\\PomodoroRelatorioWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T22:11:05.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:11:05.268Z"
             },
             {
               "$type": "Document",
@@ -186,18 +179,17 @@
               "RelativeToolTip": "Focar\\Helpers\\PomodoroMensagens.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:06:32.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:06:32.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PomodoroViewModel.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroViewModel.cs",
               "RelativeDocumentMoniker": "Focar\\ViewModels\\PomodoroViewModel.cs",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroViewModel.cs",
               "RelativeToolTip": "Focar\\ViewModels\\PomodoroViewModel.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAhwHkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T22:04:14.804Z",
               "EditorCaption": ""
@@ -215,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Focar\\AssemblyInfo.cs",
@@ -223,8 +215,7 @@
               "RelativeToolTip": "Focar\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:53:07.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T21:53:07.001Z"
             },
             {
               "$type": "Document",
@@ -236,8 +227,7 @@
               "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAwCgAAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:52:58.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T21:52:58.745Z"
             },
             {
               "$type": "Document",
@@ -248,12 +238,11 @@
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\App.xaml",
               "RelativeToolTip": "Focar\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T21:50:53.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T21:50:53.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\App.xaml.cs",
               "RelativeDocumentMoniker": "Focar\\App.xaml.cs",
@@ -261,8 +250,7 @@
               "RelativeToolTip": "Focar\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:47:49.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T21:47:49.189Z"
             }
           ]
         }
