@@ -28,7 +28,7 @@ namespace Focar.ViewModels
 		private readonly PomodoroRepositorio _repository;
 		private readonly DispatcherTimer _timer;
 
-		private int _focoMinutos = 25;
+		private int _focoMinutos = 1;
 		private int _pausaCurtaMinutos = 5;
 		private int _pausaLongaMinutos = 15;
 		private int _ciclosParaPausaLonga = 4;

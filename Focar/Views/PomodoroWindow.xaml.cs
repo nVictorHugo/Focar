@@ -23,5 +23,11 @@ namespace Focar.Views
 		{
 			InitializeComponent();
 		}
+
+		//Cancelando o comportamento padrão das janelas no windows (fechar ao clicar 2x na logo ou no alt + f4 o_O)
+		private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			e.Cancel = true;
+		}
 	}
 }

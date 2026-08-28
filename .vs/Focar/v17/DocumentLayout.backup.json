@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodorowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodorowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodorowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodororelatoriowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodororelatoriowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodororelatoriowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodororelatoriowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodoroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodororelatorioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodororelatorioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\models\\pomodororegistroexibicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\models\\pomodororegistroexibicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\focar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\focar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +59,12 @@
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\data\\pomodororepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\viewmodels\\pomodororelatorioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\viewmodels\\pomodororelatorioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\models\\pomodororegistroexibicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\models\\pomodororegistroexibicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\models\\pomodorosessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\models\\pomodorosessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\views\\pomodororelatoriowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\views\\pomodororelatoriowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\helpers\\pomodoromensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|solutionrelative:focar\\helpers\\pomodoromensagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF55C96F-E5B2-4820-ACCC-2EAADE82070B}|Focar\\Focar.csproj|c:\\users\\victor.hugo\\source\\repos\\focar\\focar\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -65,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1181,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,7 +105,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PomodoroRelatorioWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroRelatorioWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Focar\\Views\\PomodoroRelatorioWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroRelatorioWindow.xaml.cs",
+              "RelativeToolTip": "Focar\\Views\\PomodoroRelatorioWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T12:24:56.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PomodoroWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Focar\\Views\\PomodoroWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroWindow.xaml.cs",
+              "RelativeToolTip": "Focar\\Views\\PomodoroWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwCIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T12:25:39.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PomodoroRelatorioWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs",
+              "RelativeDocumentMoniker": "Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs",
+              "RelativeToolTip": "Focar\\obj\\Debug\\net8.0-windows\\Views\\PomodoroRelatorioWindow.g.i.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwFAAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T12:25:00.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Focar.csproj",
+              "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Focar.csproj",
+              "RelativeDocumentMoniker": "Focar\\Focar.csproj",
+              "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Focar.csproj",
+              "RelativeToolTip": "Focar\\Focar.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAAAewB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-26T17:47:57.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AudioService.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Services\\AudioService.cs",
               "RelativeDocumentMoniker": "Focar\\Services\\AudioService.cs",
@@ -101,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "PomodoroRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Data\\PomodoroRepositorio.cs",
               "RelativeDocumentMoniker": "Focar\\Data\\PomodoroRepositorio.cs",
@@ -119,13 +184,13 @@
               "RelativeDocumentMoniker": "Focar\\Models\\PomodoroRegistroExibicao.cs",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Models\\PomodoroRegistroExibicao.cs",
               "RelativeToolTip": "Focar\\Models\\PomodoroRegistroExibicao.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T22:16:37.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "PomodoroSessao.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Models\\PomodoroSessao.cs",
               "RelativeDocumentMoniker": "Focar\\Models\\PomodoroSessao.cs",
@@ -144,7 +209,8 @@
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroWindow.xaml",
               "RelativeToolTip": "Focar\\Views\\PomodoroWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T22:12:56.353Z"
+              "WhenOpened": "2026-08-25T22:12:56.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -154,13 +220,13 @@
               "RelativeDocumentMoniker": "Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
               "RelativeToolTip": "Focar\\ViewModels\\PomodoroRelatorioViewModel.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwHoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T22:11:50.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PomodoroRelatorioWindow.xaml",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Views\\PomodoroRelatorioWindow.xaml",
               "RelativeDocumentMoniker": "Focar\\Views\\PomodoroRelatorioWindow.xaml",
@@ -171,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "PomodoroMensagens.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\Helpers\\PomodoroMensagens.cs",
               "RelativeDocumentMoniker": "Focar\\Helpers\\PomodoroMensagens.cs",
@@ -183,20 +249,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PomodoroViewModel.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroViewModel.cs",
               "RelativeDocumentMoniker": "Focar\\ViewModels\\PomodoroViewModel.cs",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\ViewModels\\PomodoroViewModel.cs",
               "RelativeToolTip": "Focar\\ViewModels\\PomodoroViewModel.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAhwHkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T22:04:14.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T22:04:14.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "MainWindow.g.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
               "RelativeDocumentMoniker": "Focar\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs",
@@ -207,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Focar\\AssemblyInfo.cs",
@@ -219,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
@@ -231,18 +296,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\App.xaml",
               "RelativeDocumentMoniker": "Focar\\App.xaml",
               "ToolTip": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\App.xaml",
               "RelativeToolTip": "Focar\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-25T21:50:53.703Z"
+              "WhenOpened": "2026-08-25T21:50:53.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\victor.hugo\\source\\repos\\Focar\\Focar\\App.xaml.cs",
               "RelativeDocumentMoniker": "Focar\\App.xaml.cs",

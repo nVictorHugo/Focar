@@ -13,6 +13,7 @@
         MinWidth="420"
         MinHeight="500"
 		Topmost="True"
+		Closing="Window_Closing"
         Background="{DynamicResource MaterialDesignPaper}"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         FontFamily="{DynamicResource MaterialDesignFont}"
